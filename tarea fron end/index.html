@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Horario de Clases - Pablo Álvarez</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .perfil {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .perfil img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .table-container {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #3f3f60;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="perfil">
+      <img src="WhatsApp Image 2024-12-15 at 10.46.26 AM.jpeg" alt="Foto de perfil de Pablo Álvarez">
+      <h1>Horario de Clases</h1>
+      <p>Pablo Álvarez</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Día</th>
+            <th scope="col">Materia</th>
+            <th scope="col">Hora</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes</td>
+            <td>Introducción a la Programación Segura</td>
+            <td>13:45 - 15:15</td>
+          </tr>
+          <tr>
+            <td>Martes</td>
+            <td>Fundamentos de Seguridad de la Información</td>
+            <td>11:45 - 13:15</td>
+          </tr>
+          <tr>
+            <td>Martes</td>
+            <td>Programación Front-End</td>
+            <td>15:15 - 16:45</td>
+          </tr>
+          <tr>
+            <td>Miércoles</td>
+            <td>Introducción a la Programación Segura</td>
+            <td>08:30 - 11:00</td>
+          </tr>
+          <tr>
+            <td>Miércoles</td>
+            <td>Sistemas Operativos</td>
+            <td>11:00 - 12:30</td>
+          </tr>
+          <tr>
+            <td>Miércoles</td>
+            <td>Innovación y Emprendimiento</td>
+            <td>14:30 - 17:30</td>
+          </tr>
+          <tr>
+            <td>Jueves</td>
+            <td>Sistemas Operativos</td>
+            <td>11:45 - 13:45</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Pablo Álvarez | Todos los derechos reservados.
+  </footer>
+</body>
+</html>
